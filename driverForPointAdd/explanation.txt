@@ -1,0 +1,6 @@
+As read Me explains:
+
+Initial Note: In case of demand of application of Point Addition, the Linux kernel space of driver is evolved to make only point doubling alone or point multiplication (which includes point addition and point doubling). Driver is capable of calculating point doubling. But, in this last version registers are programmed such that they can work together with point doubling. In deed they do serial computations. However, point addition cannot be called to compute just point addition operation.
+     Therefore, driver codes from previous branches are added to the project, just to explain the difference.
+
+1541 - 1904 lines are explaining the driver structure. 
